@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:cornsilk;
+  display: flex;
+  justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home{
+  width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+.Nav{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.Ul{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+  margin-top: 0;
+}
+.Logo{
+  width: 20%;
+  height: 50px;
+  border:1px solid grey;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.Kino{
+  width: 300px;
+  height: 500px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.Movie{
+  margin-top: 20px;
+  width: 1200px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+.Button{
+  width: 90px;
+  height: 35px;
+  background-color: rgb(214, 101, 101);
+  padding: 1px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: black;
+  border: transparent;
+}
+.Description{
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  justify-content: space-around;
+  align-items: center;
+  gap:50px;
+}
+.Login{
+  width: 500px;
+  display:flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+input{
+   width: 200px;
+   height: 30px;
+   margin-top: 10px;
+}
+.Box{
+  width: 200px;
+  height: 50px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Box1{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(214, 101, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Box2{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(214, 101, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Time{
+  width: 100px;
+  height: 30px;
+  border: 1px solid  rgb(214, 101, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.TimeBox{
+  width: 400px;
+  height: 130px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+   /* ==============suudal zahialax */
+.Price{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Seat{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid black;
+}
+.SumSeat{
+  width: 800px;
+  height: 280px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.Tulbur{
+  width: 1000px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: row;
+}
+.Rrr{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  width: 500px;
+
+ 
+ 
+}
+.Zurag{
+  width: 500px;
+  height: 600px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }

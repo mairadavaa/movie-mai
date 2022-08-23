@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { KinodataProvider } from './context/kinodataContext';
+import { ListProvider } from './context/listContext';
+import { SeatProvider } from './context/seatContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <SeatProvider>
+    <ListProvider>
+     <KinodataProvider>
     <App />
+    </KinodataProvider>
+    </ListProvider>
+    </SeatProvider>
   </React.StrictMode>
 );
 
