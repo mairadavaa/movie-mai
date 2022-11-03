@@ -10,13 +10,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBq9L-VmkNsEJRRR2ILPRHXhSI2XQLNr1Y",
-    authDomain: "moviemai-30d92.firebaseapp.com",
-    projectId: "moviemai-30d92",
-    storageBucket: "moviemai-30d92.appspot.com",
-    messagingSenderId: "704535881096",
-    appId: "1:704535881096:web:0fdf567505901bcfbdc63d",
-    measurementId: "G-9Z0Q1GW92Z"
+
 };
 
 const app = initializeApp(firebaseConfig);
