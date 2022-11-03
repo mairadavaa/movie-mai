@@ -16,8 +16,7 @@ const About = () =>{
                 }} alt="movie"/>
             </div>
             <div>
-
-            <h1>{name}</h1>
+                <h1>{name}</h1>
             <div>
 
             <h4>Дэлгэцнээ гаргах : {date}</h4>

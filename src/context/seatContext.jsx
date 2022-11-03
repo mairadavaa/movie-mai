@@ -8,10 +8,12 @@ export const SeatProvider = ({children}) => {
     const seatC = new Array(24).fill(false);
     const seatD = new Array(30).fill(false);
     const [chosenSeat, setChosenSeat] = useState(new Array(84).fill(false));
+    const [check, setCheckSeat] = useState([])
+    const [choosed, setChoosedSeat] = useState([])
   
    
     return(
-        <SeatContext.Provider value = {{ seatA, seatB, seatC, seatD,  chosenSeat, setChosenSeat}}>
+        <SeatContext.Provider value = {{ seatA, seatB, seatC, seatD,  chosenSeat, setChosenSeat, check, setCheckSeat, choosed, setChoosedSeat}}>
             {children}
         </SeatContext.Provider>
     )

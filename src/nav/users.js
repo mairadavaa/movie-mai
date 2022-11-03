@@ -19,19 +19,19 @@ const Users = () => {
         const {id} = e.target
         setTime(id)
     }
-    console.log(time);
     const ConsoleLog = (e) => {
-        console.log("aaaa")
-        if (list.password === list.hiddenpass && list.email.includes(".com")) {
+
+        if (list.email.includes(".com")) {
             setList ({...list, adultTicket:counter, childTicket:childcounter, time:time })
-            } else {
-                console.log("aldaatai")
-                }
-            }
-            console.log(list)
+            console.log (list)
+            
+        } else {
+            alert("email xayg ni aldaatai")
+        }
+
+    }
     // buh listiin datag haruulah heseg urgeljluuleh gdg button dr ajilna
     // 
-    console.log (childcounter)
     return (
         <div className="Description">
             <div>

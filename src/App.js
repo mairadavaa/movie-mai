@@ -1,4 +1,5 @@
 import React from "react";
+
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -9,6 +10,7 @@ import About from "./nav/about";
 import  Home  from "./nav/home";
 import  Users  from "./nav/users";
 import Price  from "./nav/price";
+
 
 export default function App() {
   return (

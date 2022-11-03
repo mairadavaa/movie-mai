@@ -10,12 +10,11 @@ const Home = () => {
 
     return (
         <div>
-
             <div style={{ display: "flex", justifyContent: "center" }}><h1>Кино жагсаалт</h1></div>
             <div className="Movie">
 
                 { movies.map((el, index) =>
-                    <div className="Kino" >
+                    <div className="Kino" key={index} >
                         <Cart index={index}/>
                     </div>
 
